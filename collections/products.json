@@ -1,0 +1,15 @@
+{
+    "id": "uuid",
+    "name": "string",
+    "category": "string",
+    "price":  "int",
+    "stock": [
+        {"location": "string", "quantity": "int"},
+        {"location": "string", "quantity": "int"}
+    ],
+    "attributes": [
+        {"attr_name": "string", "attr_value": "mixed"},
+        {"attr_name": "string", "attr_value": "mixed"},
+        {"attr_name": "string", "attr_value": "mixed"}
+    ]
+}
