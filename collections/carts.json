@@ -2,6 +2,7 @@
     "id": "uuid",
     "user_id": "uuid|null",
     "session_id": "uuid|null",
+    "entity_id": "type (user | session ) + type_id (user_id | session_id)",
     "items": [
         {"product_id": "uuid", "quantity": "int"},
         {"product_id": "uuid", "quantity": "int"},
@@ -10,5 +11,5 @@
     "status":  "active | ordered | abandoned",
     "created_at": "timestamp",
     "updated_at": "timestamp",
-    "expires_at": "int"
+    "expires_at": "timestamp"
 }
